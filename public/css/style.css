@@ -1,0 +1,145 @@
+
+.has-submenu#log-out {
+  display: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 6px 13px;
+    background-color: #f1b53d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; /* efek transisi */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* efek shadow */
+    font-size: 0.85rem;
+    font-weight: 500;
+    
+}
+a.button {
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+a.button {
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+}
+li.has-submenu a {
+  text-decoration: none;
+}
+.button-back {
+    display: inline-block;
+    padding: 4px 18px;
+    background-color: #2B3D51;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; /* efek transisi */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* efek shadow */
+    
+}
+
+.button:hover {
+    background-color: #da9306;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:active {
+    background-color: #f1b53d;
+    transform: scale(0.95); /* efek scaling */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* efek shadow */
+}
+
+.btn:active {
+    background-color: #f1b53d;
+    transform: scale(0.95); /* efek scaling */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* efek shadow */
+}
+
+
+select {
+  font-size: 16px; /* ukuran font */
+  padding: 5px 10px; /* jarak antara teks dan batas tombol */
+  height: 35px; /* tinggi tombol */
+  width: 250px; /* lebar tombol */
+  border-radius: 10px; /* radius sudut tombol */
+  background-color: #f1f1f1; /* warna latar belakang tombol */
+  color: #333; /* warna teks */
+  cursor: pointer;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  select {
+    font-size: 14px; /* ukuran font yang diinginkan */
+    padding: 6px; /* jarak antara teks dan border */
+    width: 100%; /* panjang seluruh lebar layar */
+  }
+
+  .profile {
+    display: none;
+  }
+
+  .button {
+    font-size: 12px; /* ukuran font button mengecil */
+    padding: 5px 13px; /* ukuran padding button mengecil */
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+
+  .button-back {
+    font-size: 12px; /* ukuran font button mengecil */
+    padding: 5px 13px; /* ukuran padding button mengecil */
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+
+}
+
+@media only screen and (max-width: 780px) {
+  .profile {
+    display: none;
+  }
+}
+
+
+select:hover {
+  background-color: #ddd; /* warna latar belakang saat cursor di atas tombol */
+}
+
+select:focus {
+  outline: none; /* hilangkan garis fokus */
+  box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); /* tampilkan bayangan saat fokus */
+}
+
+table tr {
+  cursor: pointer;
+}
+
+table .table-responsive {
+  width: 100%;
+}
+
+table{
+  width: 100%;
+}
+
+
+
+
+
+
+
+

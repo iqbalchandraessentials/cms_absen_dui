@@ -1,0 +1,14 @@
+// 
+// footer.scss
+//
+
+.footer {
+    bottom: 0;
+    padding: 19px 15px 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: $gray-600;
+    background-color: darken($body-bg,3.5%);
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+{
+    "name": "PinjamMobil",
+    "alias": "pinjammobil",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PinjamMobil\\Providers\\PinjamMobilServiceProvider"
+    ],
+    "files": []
+}
